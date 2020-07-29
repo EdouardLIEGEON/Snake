@@ -1,0 +1,39 @@
+@font-face {
+    font-family: yeseva;
+    src: url('../fonts/yeseva-one/YesevaOne-Regular_v2.otf') format('truetype');
+  }
+  @font-face {
+    font-family: lato;
+    src: url('../Fonts/lato/Lato-Regular.ttf') format('truetype');
+  }
+body{
+    background-image: url('blackMamba.jpg');
+    padding: 0 100px;
+}
+h1{
+    font-size: 100px;
+    font-family: yeseva;
+    color: #fff;
+    text-align: center;
+}
+p{
+    font-family: lato;
+    font-size: 30px;
+    color: #fff;
+}
+button{
+    background-color: transparent;
+    padding: 20px 50px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin: 100px 745px;
+    font-weight: bold;
+    font-family: yeseva;
+}
+button:hover{
+    background-color: #fff;
+    color: black;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5);
+}
